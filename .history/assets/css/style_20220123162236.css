@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 46px;
+    background-color: #000;
+}
+
+#nav li{
+    display: block;
+}
+
+
+
+
+
+

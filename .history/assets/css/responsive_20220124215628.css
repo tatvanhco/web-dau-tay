@@ -1,0 +1,47 @@
+/*  giao diện PC */
+@media (max-width: 1024px) {
+    
+}
+
+/* giao diện tablet */
+@media (min-width: 720px) and (max-width: 1024px) {
+
+}
+
+/* giao diện mobile */
+@media (max-width: 723px) {
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 35px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .menu-mobile {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+}
+
